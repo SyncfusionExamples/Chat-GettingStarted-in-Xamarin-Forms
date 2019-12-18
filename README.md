@@ -79,7 +79,7 @@ namespace GettingStarted
 
 ```
 
-Create a view model class with message collection property and current user property to bind chat control.
+Create a view model class that contains the message collection and current user properties to be binded to the chat control.
 
 ```c#
 
