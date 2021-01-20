@@ -76,35 +76,30 @@ namespace GettingStarted
             {
                 Author = currentUser,
                 Text = "Hi guys, good morning! I'm very delighted to share with you the news that our team is going to launch a new mobile application.",
-                ShowAvatar = true,
             });
 
             this.messages.Add(new TextMessage()
             {
                 Author = new Author() { Name = "Andrea", Avatar = "People_Circle2.png" },
                 Text = "Oh! That's great.",
-                ShowAvatar = true,
             });
 
             this.messages.Add(new TextMessage()
             {
                 Author = new Author() { Name = "Harrison", Avatar = "People_Circle14.png" },
                 Text = "That is good news.",
-                ShowAvatar = true,
             });
 
             this.messages.Add(new TextMessage()
             {
                 Author = new Author() { Name = "Margaret", Avatar = "People_Circle7.png" },
                 Text = "What kind of application is it and when are we going to launch?",
-                ShowAvatar = true,
             });
 
             this.messages.Add(new TextMessage()
             {
                 Author = currentUser,
                 Text = "A kind of Emergency Broadcast App.",
-                ShowAvatar = true,
             });
         }
     }
